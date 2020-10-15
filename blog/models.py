@@ -1,4 +1,4 @@
-from django.db import models
+#from django.db import models
 
 # Create your models here.
 
@@ -10,7 +10,6 @@ class Blog(models.Model):
     pub_date = models.DateTimeField()
     body = models.TextField()
     image = models.ImageField(upload_to='images/')
-
 """
 
 #add blog app to the settings
